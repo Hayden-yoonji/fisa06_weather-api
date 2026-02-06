@@ -27,6 +27,7 @@ def get_weather():
 def update_readme():
     """Update README.md"""
     weather_info = get_weather()
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     readme_content = f"""
 # Weather API Status
 
