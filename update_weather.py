@@ -2,7 +2,7 @@ import requests
 import os                     
 from datetime import datetime                                              
 from dotenv import load_dotenv 
-                               
+
 load_dotenv()  
 
 # OpenWeather API                                                          
@@ -10,7 +10,7 @@ API_KEY = os.getenv("OPENWEATHER_API_KEY")
 CITY = "Seoul"                                                             
 URL = f"https://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"  
 # README file route
-README_PATH = "/home/user02/weather/README.md"
+README_PATH = "README.md"
 
 def get_weather():
     """Get weather data using OpenWeatherAPI"""
