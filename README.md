@@ -6,7 +6,7 @@ This repository updates current seoul weather information automatically, using O
 current seoul weather
 > current weather: broken clouds, current temperature: 7.41°CC, current humidity: 28%
 
-update-time: 2026-03-21 16:53:36 (UTC)
+update-time: 2026-03-21 17:14:42 (UTC)
 
 ---
 It is managed by auto update-bot.
